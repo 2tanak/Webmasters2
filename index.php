@@ -61,17 +61,14 @@ set_include_path(get_include_path()
 
 function __autoload($class_name) {
 	
-	if(strpos($class_name,"PHPExcel") === 0) {
-		return;
-	}
-	
+
 	if(!include_once ($class_name.".php")) {
 		
 		try {
-			throw new ContrException($class_name.'Не правильный файл для подключения');
+			throw new Exception($class_name.'Не правильный файл для подключения');
 		}
-		catch(ContrException $e) {
-			echo $e->getMessage();
+		catch(Exception $e) {
+echo $e->getMessage();exit();
 		}
 	}
 }

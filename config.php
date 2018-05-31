@@ -4,7 +4,7 @@ define('CONTROLLER','controller');
 define('MODEL','model');
 define('TEMPLATE_TEST','template/default/');
 define('LIB','lib');
-define('DOMEN','rasha.ru');
+define('DOMEN',$_SERVER['HTTP_HOST'] );
 define('HOST','localhost');
 define('USER','root');
 define('PASSWORD','');
