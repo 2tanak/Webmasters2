@@ -1,0 +1,124 @@
+
+
+
+/*-----------------------------------------------------------------------breakpoint nav-bar----------------------------*/
+@media only screen and (max-width: 1000px) {
+  .menu-top .navbar-default .centers {
+    float: none;
+    width: 100%!important;
+    display: block!important;
+    text-align: left!important;
+  }
+  .menu-top .navbar-default .centers > li a {
+    text-align: left!important;
+    padding-top: 0px!important;
+    padding-bottom: 5px!important;
+  }
+  .menu-top .navbar-default .navbar-right {
+    float: none;
+  }
+  .nav-justified > li {
+    float: none;
+  }
+  .nav-justified > li {
+    display: block;
+    width: 100%;
+  }
+  .menu-top .navbar-default .centers {
+    float: none;
+  }
+  .menu-top .navbar-default .navbar-right {
+    float: none;
+  }
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,
+  .navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in {
+    display: block !important;
+  }
+}
+
+
+
+.liafontfamily {
+  font-family: 'Arial';
+  color: red;
+  font-size: 15px;
+}
+/*---------стили для ul--------------*/
+/*-----------стили a ссылка------------*/
+.menu-top .navbar-default .navbar-header a {
+  /*---------блок с левой частью частью--------------*/
+  background-color: transparent;
+  color: black;
+}
+.menu-top .navbar-default .centers {
+  /*---------блок ul  сентральная часть список--------------*/
+  width: 70%;
+  float: left;
+}
+.menu-top .navbar-default .centers > li > a {
+  /*---------блок ul  сентральная часть список--------------*/
+  background: transparent;
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.menu-top .navbar-default .navbar-right {
+  /*---------блок с правой частью--------------*/
+  width: auto%;
+  float: right;
+}
+.menu-top .navbar-default .navbar-right > li > a {
+  /*---------блок с правой частью--------------*/
+  background-color: !important;
+  color: black;
+}
+.container .alert-danger{
+padding:3px 20px!important;	
+}
+.container .alert-success{
+padding:10px 20px!important;	
+}
+
+.clear{
+clear:both;
+}
+#form{
+	margin-bottom:50px;
+	border:1px solid #ccc;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+
+
